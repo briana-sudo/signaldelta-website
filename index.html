@@ -730,6 +730,26 @@ section {
   align-items: center;
 }
 
+.cta-email-caption {
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-feature-settings: 'tnum';
+  font-size: 13px;
+  color: var(--fg-3);
+  letter-spacing: 0.02em;
+}
+.cta-email-caption a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--fg-3);
+  padding-bottom: 1px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.cta-email-caption a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -1194,6 +1214,9 @@ section {
         <a href="mailto:hello@signaldelta.ai" class="btn btn-primary">Get notified at launch</a>
         <a href="https://x.com/GetSignalDelta" target="_blank" rel="noopener" class="btn btn-secondary">Follow the build</a>
       </div>
+      <div class="cta-email-caption">
+        <a href="mailto:hello@signaldelta.ai">hello@signaldelta.ai</a>
+      </div>
       <div style="margin-top: 20px;">
         <a href="https://portal.signaldelta.ai" target="_blank" rel="noopener" class="btn btn-link">View live simulation portal</a>
       </div>
@@ -1211,7 +1234,7 @@ section {
       <a href="https://www.tiktok.com/@signaldelta" target="_blank" rel="noopener">TikTok</a>
       <a href="https://instagram.com/getsignaldelta" target="_blank" rel="noopener">Instagram</a>
       <a href="https://portal.signaldelta.ai" target="_blank" rel="noopener">Portal</a>
-      <a href="mailto:hello@signaldelta.ai">Email</a>
+      <a href="mailto:hello@signaldelta.ai">hello@signaldelta.ai</a>
     </div>
   </div>
   <div class="disclaimer">
